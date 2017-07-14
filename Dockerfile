@@ -1,8 +1,8 @@
 #
 # Base image to all containers
 #
-FROM rhel7
-MAINTAINER Jose Roman Martin Gil <roman.martin@redhat.com>
+FROM fedora:latest
+MAINTAINER Jose Roman Martin Gil <jromanmartin@gmail.com>
 
 # Update the system
 RUN yum -y update && \
