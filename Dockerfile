@@ -1,8 +1,8 @@
 #
 # Base image to all containers
 #
-FROM fedora:latest
-MAINTAINER Jose Roman Martin Gil <jromanmartin@gmail.com>
+FROM fedora:29
+MAINTAINER Roman Martin Gil <jromanmartin@gmail.com>
 
 # Update the system
 RUN yum -y update && \
@@ -11,3 +11,4 @@ RUN yum -y update && \
 # Install Common Software
 RUN yum -y install wget && \
     yum clean all
+

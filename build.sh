@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build --rm -t "jromanmartin/os-base" .
+docker build --rm -t "rmarting/os-base:latest" .
 
